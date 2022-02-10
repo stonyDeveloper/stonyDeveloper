@@ -634,6 +634,7 @@ main .about .container {
 main .about .container img {
     width: 90%;
     filter: grayscale();
+    border-radius: 2rem;
 }
 
 main .about .about-content .about-text-pic {
