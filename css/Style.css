@@ -614,27 +614,37 @@ main .about {
     width: 100%;
 }
 
-main .about .about-content h1 {
+main .about h1 {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: auto;
     color: var(--text-gray);
 }
 
 main .about .about-content p {
     width: 40vw;
     text-align: justify;
-    margin-top: 7rem;
+    margin-top: 3rem;
 }
 
 main .about .container {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 60% 40%;
+    height: 85vh;
+    margin-top: 2rem;
 }
 
 main .about .container img {
-    width: 90%;
+    height: 85vh;
+    width: auto;
     filter: grayscale();
     border-radius: 2rem;
+    transition: all 1s ease;
+}
+
+main .about .container img:hover {
+    transform: scale(1.1);
 }
 
 main .about .about-content .about-text-pic {
